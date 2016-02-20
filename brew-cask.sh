@@ -4,14 +4,12 @@
 
 # Install native apps
 
-brew install caskroom/cask/brew-cask
-brew tap caskroom/versions
 
 # daily
 brew cask install spectacle
 brew cask install dropbox
 #brew cask install gyazo
-brew cask install onepassword
+brew cask install 1password
 brew cask install rescuetime
 brew cask install flux
 
@@ -29,6 +27,7 @@ brew cask install imageoptim
 # browsers
 brew cask install google-chrome
 brew cask install firefox
+brew cask install firefoxdeveloperedition
 
 #brew cask install webkit-nightly
 #brew cask install chromium
@@ -36,7 +35,7 @@ brew cask install firefox
 
 # less often
 #brew cask install disk-inventory-x
-brew cask install screenflow4 # 4 specifically not 5.
+#brew cask install screenflow # 4 specifically not 5.
 brew cask install gpgtools
 #brew cask install licecap
 brew cask install utorrent
@@ -51,18 +50,13 @@ brew cask install font-liberation-sans
 
 # Igors
 brew cask install alfred
-brew cask install atom
 brew cask install robomongo
 brew cask install dockertoolbox
-brew cask install clamxav
 brew cask install sourcetree
 brew cask install skitch
-brew cask install firefoxdeveloperedition
-brew cask install java
-brew cask install eclipse-ide
+
 brew cask install batchmod
 brew cask install gimp
-brew cask install sizeup
 brew cask install gitup
 brew cask install transmission
 brew cask install virtualbox
@@ -70,4 +64,15 @@ brew cask install vlc
 brew cask install spotify
 brew cask install libreoffice
 brew cask install calibre
-brew cask install cakebrew
+brew cask install google-drive
+
+brew cask install eclipse-ide
+brew cask install netbeans
+brew cask install intellij-idea
+brew cask install atom
+
+
+brew cask install hipchat
+brew cask install electric-sheep
+brew cask install wireshark
+brew cask install sshfs

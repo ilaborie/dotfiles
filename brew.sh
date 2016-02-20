@@ -56,6 +56,10 @@ brew install mtr
     sudo chmod 4755 $mtrlocation/sbin/mtr
     sudo chown root $mtrlocation/sbin/mtr
 
+# Install Java (require cask)
+brew install caskroom/cask/brew-cask
+brew tap caskroom/versions
+brew cask install java
 
 # Install other useful binaries
 brew install sift
@@ -67,7 +71,6 @@ brew install rename
 brew install tree
 brew install zopfli
 brew install ffmpeg --with-libvpx
-
 brew install terminal-notifier
 
 #brew install zsh
@@ -80,7 +83,6 @@ brew install git-flow
 brew install httpie
 brew install phantomjs
 brew install python
-brew install rust
 brew install uncrustify
 brew install scala
 brew install tree
@@ -88,10 +90,16 @@ brew install wget
 brew install sbt
 brew install gradle
 brew install heroku-toolbelt
-
+brew install mackup
+brew install go
+#brew install rust
 
 brew tap jcgay/jcgay
 brew install maven-deluxe
 
 # Remove outdated versions from the cellar
 brew cleanup
+
+# Install rust
+curl -sSf https://static.rust-lang.org/rustup.sh | sh
+cargo install racer

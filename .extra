@@ -1,0 +1,8 @@
+# Extra configuration here
+
+# Export homebrew path
+export PATH=$HOME/.cargo/bin:$HOME/.homebrew/opt/go/libexec/bin:$HOME/.homebrew/bin:$HOME/.homebrew/sbin:$HOME/bin:$PATH
+
+export GOPATH=$HOME/Developpement/Workspaces/go
+
+export RUST_SRC_PATH=$HOME/Developpement/rustc-1.6.0/src

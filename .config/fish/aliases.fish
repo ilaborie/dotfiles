@@ -35,7 +35,7 @@ end
 
 # `cat` with beautiful colors. requires Pygments installed.
 # 							   sudo easy_install -U Pygments
-alias c='pygmentize -O style=monokai -f console256 -g'
+alias catc='pygmentize -O style=monokai -f console256 -g'
 
 
 
@@ -47,8 +47,10 @@ alias dig="dig +nocmd any +multiline +noall +answer"
 alias cleanup_dsstore="find . -name '*.DS_Store' -type f -ls -delete"
 
 # Shortcuts
+alias c="clear"
 alias g="git"
 alias v="vim"
+alias ll="ls -lah"
 alias ungz="gunzip -k"
 
 # File size
@@ -58,6 +60,5 @@ alias fs="stat -f \"%z bytes\""
 alias emptytrash="sudo rm -rfv /Volumes/*/.Trashes; rm -rfv ~/.Trash; sudo rm /private/var/vm/sleepimage"
 
 # Update installed Ruby gems, Homebrew, npm, and their installed packages
-alias brew_update="brew -v update; brew -v upgrade --all; brew cleanup; brew cask cleanup; brew prune; brew doctor"
+alias brew_update="brew -v update; brew upgrade --all; brew cleanup; brew cask cleanup; brew prune"
 alias update_brew_npm_gem='brew_update; npm install npm -g; npm update -g; sudo gem update --system; sudo gem update --no-rdoc --no-ri'
-

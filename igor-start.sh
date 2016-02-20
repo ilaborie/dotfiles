@@ -83,8 +83,8 @@ npm install -g yo
 npm install -g bower
 npm install -g lite-server
 npm install -g eslint
-
-echo "TODO https://github.com/sjl/z-fish"
+npm install -g typescript
+npm install -g diff-so-fancy
 
 # github.com/thebitguru/play-button-itunes-patch
 # disable itunes opening on media keys
@@ -109,14 +109,6 @@ sudo echo $BASHPATH >> /etc/shells
 chsh -s $BASHPATH # will set for current user only.
 echo $BASH_VERSION # should be 4.x not the old 3.2.X
 # Later, confirm iterm settings aren't conflicting.
-
-
-# iterm with more margin! http://hackr.it/articles/prettier-gutter-in-iterm-2/
-#   (admittedly not as easy to maintain)
-
-
-# setting up the sublime symlink
-#ln -sf "/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl" ~/bin/subl
 
 
 ###

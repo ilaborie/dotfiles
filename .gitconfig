@@ -16,7 +16,7 @@
 	d = !"git diff-index --quiet HEAD -- || clear; git --no-pager diff --patch-with-stat"
 
 [core]
-	excludesfile = ~/.gitignore
+	excludesfile = /Users/igor/.gitignore
 	attributesfile = ~/.gitattributes
 	# insanely beautiful diffs
 	pager = diff-highlight | diff-so-fancy | less -r
@@ -76,3 +76,9 @@
 
 [init]
 	templatedir = ~/.git_template
+[difftool "sourcetree"]
+	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
+	path = 
+[mergetool "sourcetree"]
+	cmd = /opt/homebrew-cask/Caskroom/sourcetree/2.2/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
+	trustExitCode = true

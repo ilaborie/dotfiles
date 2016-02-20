@@ -1,5 +1,3 @@
-# https://github.com/roryokane/z-fish/blob/master/z.fish
-
 # maintains a jump-list of the directories you actually use
 #
 # INSTALL:
