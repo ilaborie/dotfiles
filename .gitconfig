@@ -1,24 +1,26 @@
 [alias]
-	c = commit -am
-	up = pull
-	p = push
+  amend = commit --amend
+  st = status
+  br = branch -v
 	s = status -s
-	sclone = clone --depth=1
 	co = checkout
-	df = diff --color --color-words --abbrev
+  who = shortlog -sne
+  df = diff --color --color-words --abbrev
+  addm = !git-ls-files -m -z | xargs -0 git-add && git status
+  addu = !git-ls-files -o --exclude-standard -z | xargs -0 git-add && git status
+  rmm  = !git ls-files -d -z | xargs -0 git-rm && git status
+  ol = log --pretty=oneline --abbrev-commit --graph --decorate
 	lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --
-	
+
 	# Show the diff between the latest commit and the current state
 	d = !"git diff-index --quiet HEAD -- || clear; git --no-pager diff --patch-with-stat"
 
-	reup = rebase-update # depot_tools specific
-	
 [core]
 	excludesfile = ~/.gitignore
 	attributesfile = ~/.gitattributes
 	# insanely beautiful diffs
 	pager = diff-highlight | diff-so-fancy | less -r
-	
+
 # so much color
 [color]
 	ui = always
@@ -68,7 +70,7 @@
 [push]
 	default = current
 
-# use separate file for username / github token / etc 
+# use separate file for username / github token / etc
 [include]
   path = ~/.gitconfig.local
 

@@ -18,7 +18,6 @@ alias brwe=brew  #typos
 
 alias hosts='sudo $EDITOR /etc/hosts'   # yes I occasionally 127.0.0.1 twitter.com ;)
 
-
 ###
 # time to upgrade `ls`
 
@@ -37,7 +36,7 @@ alias lsd='ls -l | grep "^d"' # only directories
 
 
 # `cat` with beautiful colors. requires: sudo easy_install -U Pygments
-alias c='pygmentize -O style=monokai -f console256 -g'
+alias catc='pygmentize -O style=monokai -f console256 -g'
 
 ###
 # GIT STUFF
@@ -63,6 +62,7 @@ alias free_diskspace_report="diskspace_report"
 alias g="git"
 alias v="vim"
 alias ungz="gunzip -k"
+alias c='clear'
 
 # File size
 alias fs="stat -f \"%z bytes\""

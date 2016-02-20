@@ -70,10 +70,28 @@ brew install ffmpeg --with-libvpx
 
 brew install terminal-notifier
 
-brew install android-platform-tools
-brew install pidcat   # colored logcat guy
+#brew install zsh
 
-brew install zsh
+# Igor's
+brew install fish
+brew install mongodb
+brew install elasticsearch
+brew install git-flow
+brew install httpie
+brew install phantomjs
+brew install python
+brew install rust
+brew install uncrustify
+brew install scala
+brew install tree
+brew install wget
+brew install sbt
+brew install gradle
+brew install heroku-toolbelt
+
+
+brew tap jcgay/jcgay
+brew install maven-deluxe
 
 # Remove outdated versions from the cellar
 brew cleanup
