@@ -92,6 +92,7 @@ brew install gradle
 brew install heroku-toolbelt
 brew install mackup
 brew install go
+brew install watchman
 #brew install rust
 
 brew tap jcgay/jcgay
