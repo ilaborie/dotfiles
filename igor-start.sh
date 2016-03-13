@@ -52,6 +52,7 @@ mkdir $HOME/.homebrew && curl -L https://github.com/mxcl/homebrew/tarball/master
 export PATH=$HOME/.homebrew/bin:$HOME/.homebrew/sbin:$PATH
 
 # install all the things
+# FIXME change right for directory
 ./brew.sh
 ./brew-cask.sh
 
@@ -67,24 +68,7 @@ export PATH=$HOME/.homebrew/bin:$HOME/.homebrew/sbin:$PATH
 # the `push` command which copies the github compare URL to my clipboard is heaven
 bash < <( curl https://raw.github.com/jamiew/git-friendly/master/install.sh)
 
-
-# Type `git open` to open the GitHub page or website for a repository.
-npm install -g git-open
-# trash as the safe `rm` alternative
-npm install --global trash-cli
-
-# Igor's
-npm install -g grunt-cli
-npm install -g gulp
-npm install -g http-server
-npm install -g bower
-npm install -g pm2
-npm install -g yo
-npm install -g bower
-npm install -g lite-server
-npm install -g eslint
-npm install -g typescript
-npm install -g diff-so-fancy
+./igor-npm-global.sh
 
 # github.com/thebitguru/play-button-itunes-patch
 # disable itunes opening on media keys
@@ -104,6 +88,7 @@ sudo easy_install Pygments
 
 
 # change to bash 4 (installed by homebrew)
+# FIXME change right for /etc/shells
 BASHPATH=$(brew --prefix)/bin/bash
 sudo echo $BASHPATH >> /etc/shells
 chsh -s $BASHPATH # will set for current user only.

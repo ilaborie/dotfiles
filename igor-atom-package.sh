@@ -30,3 +30,5 @@ apm install pigments
 apm install racer
 apm install script
 apm install todo-show
+apm install language-gradle
+apm install language-asciidoc
