@@ -64,15 +64,19 @@ brew cask install vlc
 brew cask install spotify
 brew cask install libreoffice
 brew cask install calibre
-brew cask install google-drive
 
 brew cask install eclipse-ide
 brew cask install netbeans
 brew cask install intellij-idea
 brew cask install atom
 
-
 brew cask install hipchat
+brew cask install skype
+brew cask install slack
+brew cask install google-drive
+brew cask install google-hangouts
+
+
 brew cask install electric-sheep
 brew cask install wireshark
 brew cask install sshfs
