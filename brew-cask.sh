@@ -76,7 +76,7 @@ brew cask install slack
 brew cask install google-drive
 brew cask install google-hangouts
 
-
+brew cask install qlmarkdown
 brew cask install electric-sheep
 brew cask install wireshark
 brew cask install sshfs
