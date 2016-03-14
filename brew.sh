@@ -98,6 +98,8 @@ brew install watchman
 brew tap jcgay/jcgay
 brew install maven-deluxe
 
+brew install  aspell --with-lang-fr --with-lang-en
+
 # Remove outdated versions from the cellar
 brew cleanup
 

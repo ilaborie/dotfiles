@@ -25,9 +25,13 @@ Thumbs.db
 # Compiled Python files
 *.pyc
 
+# IntelliJ files
+.idea/
+*.iml
+
 # fish shell
 fishd.*
-.config/fish/fish_history
-.config/gtk-2.0/
-.config/gh-update
-.config/configstore/
+/.config/fish/fish_history
+/.config/gtk-2.0/
+/.config/gh-update
+/.config/configstore/
