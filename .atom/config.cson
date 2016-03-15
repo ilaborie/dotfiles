@@ -31,3 +31,5 @@
       pigmentsDecorationsZIndex: 0
   welcome:
     showOnStartup: false
+  zentabs:
+    maximumOpenedTabs: 5

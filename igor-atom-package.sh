@@ -32,3 +32,4 @@ apm install script
 apm install todo-show
 apm install language-gradle
 apm install language-asciidoc
+apm install zentabs
