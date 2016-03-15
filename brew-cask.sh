@@ -47,6 +47,8 @@ brew cask install font-fira-code
 brew cask install font-hack
 brew cask install font-hasklig
 brew cask install font-liberation-sans
+brew cask install font-open-sans
+brew cask install font-open-sans-condensed
 
 # Igors
 brew cask install alfred
