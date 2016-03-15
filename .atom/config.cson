@@ -1,6 +1,7 @@
 "*":
   "atom-beautify":
     _analyticsUserId: "2ffb4a29-c24f-4f0e-b7e0-176147798e77"
+  "atom-typescript": {}
   core:
     themes: [
       "atom-dark-ui"

@@ -33,3 +33,5 @@ apm install todo-show
 apm install language-gradle
 apm install language-asciidoc
 apm install zentabs
+apm install last-cursor-position
+apm install docblockr
