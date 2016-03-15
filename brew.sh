@@ -11,8 +11,7 @@ brew upgrade
 
 # GNU core utilities (those that come with OS X are outdated)
 # Don’t forget to add `$(brew --prefix coreutils)/libexec/gnubin` to `$PATH`.
-brew install coreutils
-brew install moreutils
+brew install coreutils moreutils
 # GNU `find`, `locate`, `updatedb`, and `xargs`, `g`-prefixed
 brew install findutils
 # GNU `sed`, overwriting the built-in `sed`
@@ -44,10 +43,6 @@ brew install homebrew/dupes/screen
 # run this script when this file changes guy.
 brew install entr
 
-# github util. imho better than hub
-brew install gh
-
-
 # mtr - ping & traceroute. best.
 brew install mtr
 
@@ -63,7 +58,7 @@ brew cask install java
 
 # Install other useful binaries
 brew install sift
-brew install git
+brew install git git-lfs git-flow gh
 brew install imagemagick --with-webp
 brew install node # This installs `npm` too using the recommended installation method
 brew install pv
@@ -77,28 +72,22 @@ brew install terminal-notifier
 
 # Igor's
 brew install fish
-brew install mongodb
-brew install elasticsearch
-brew install git-flow
-brew install httpie
+brew install mongodb elasticsearch
+brew install wget httpie
 brew install phantomjs
-brew install python
 brew install uncrustify
-brew install scala
+brew install python scala go
 brew install tree
-brew install wget
-brew install sbt
-brew install gradle
+brew install sbt gradle
 brew install heroku-toolbelt
 brew install mackup
-brew install go
 brew install watchman
 #brew install rust
 
 brew tap jcgay/jcgay
 brew install maven-deluxe
 
-brew install  aspell --with-lang-fr --with-lang-en
+brew install aspell --with-lang-fr --with-lang-en
 
 # Remove outdated versions from the cellar
 brew cleanup
