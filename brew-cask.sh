@@ -79,6 +79,12 @@ brew cask install google-drive
 brew cask install google-hangouts
 
 brew cask install qlmarkdown
+brew cask install qlcolorcode
+brew cask install qlstephen
+brew cask install quicklook-json
+brew cask install qlprettypatch
+brew cask install quicklook-csv
+
 brew cask install electric-sheep
 brew cask install wireshark
 brew cask install sshfs
