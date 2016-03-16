@@ -35,3 +35,4 @@ apm install language-asciidoc
 apm install zentabs
 apm install last-cursor-position
 apm install docblockr
+apm install open-recent
