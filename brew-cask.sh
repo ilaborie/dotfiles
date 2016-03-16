@@ -4,6 +4,8 @@
 
 # Install native apps
 
+# Temporary allow create link in /usr/local/bin
+sudo chown $USER /usr/local/bin
 
 # daily
 brew cask install spectacle
@@ -88,3 +90,6 @@ brew cask install quicklook-csv
 brew cask install electric-sheep
 brew cask install wireshark
 brew cask install sshfs
+
+# Restore ElCapitan owner for /usr/local/bin
+sudo chown root /usr/local/bin

@@ -52,7 +52,6 @@ mkdir $HOME/.homebrew && curl -L https://github.com/mxcl/homebrew/tarball/master
 export PATH=$HOME/.homebrew/bin:$HOME/.homebrew/sbin:$PATH
 
 # install all the things
-# FIXME change right for directory
 ./brew.sh
 ./brew-cask.sh
 
@@ -87,13 +86,18 @@ git clone https://github.com/thebitguru/play-button-itunes-patch ~/code/play-but
 sudo easy_install Pygments
 
 
-# change to bash 4 (installed by homebrew)
-# FIXME change right for /etc/shells
+# Change to bash 4 (installed by homebrew)
+# Change to fish
+# Temporary allow create update /etc/shells
+sudo chown $USER /etc/shells
 BASHPATH=$(brew --prefix)/bin/bash
 sudo echo $BASHPATH >> /etc/shells
-chsh -s $BASHPATH # will set for current user only.
-echo $BASH_VERSION # should be 4.x not the old 3.2.X
-# Later, confirm iterm settings aren't conflicting.
+FISHPATH=$(brew --prefix)/bin/fish
+sudo echo $FISHPATH >> /etc/shells
+chsh -s $FISHPATH # will set for current user only.
+# Restore owner for /etc/shells
+sudo chown root /etc/shells
+
 
 
 ###
