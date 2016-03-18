@@ -91,5 +91,8 @@ brew cask install electric-sheep
 brew cask install wireshark
 brew cask install sshfs
 
+brew cask install xquartz
+brew cask install inkscape
+
 # Restore ElCapitan owner for /usr/local/bin
 sudo chown root /usr/local/bin

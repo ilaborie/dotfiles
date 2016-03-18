@@ -36,3 +36,5 @@ apm install zentabs
 apm install last-cursor-position
 apm install docblockr
 apm install open-recent
+apm install language-svg
+apm install svg-preview
