@@ -30,3 +30,17 @@
 # If you are unfamiliar with CSON, you can read more about it in the
 # Atom Flight Manual:
 # https://atom.io/docs/latest/using-atom-basic-customization#cson
+
+'.editor':
+  'alt-shift-up': 'editor:move-line-up'
+  'alt-shift-down':'editor:move-line-down'
+  'cmd-shift-w':'pane:close-other-items'
+  'cmd-shift-a': 'command-palette:toggle'
+  'cmd-l': 'go-to-line:toggle'
+  'ctrl-w': 'editor:select-word'
+
+'atom-workspace atom-text-editor:not([mini])':
+  'cmd-d': 'editor:duplicate-lines'
+
+'.platform-darwin atom-text-editor':
+  'cmd-e': 'fuzzy-finder:toggle-buffer-finder'
