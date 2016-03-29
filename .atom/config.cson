@@ -22,6 +22,8 @@
   "exception-reporting":
     userId: "da6f7ba0-1ad8-bad3-000c-808e11075e60"
   "git-log": {}
+  "markdown-preview":
+    useGitHubStyle: true
   "merge-conflicts": {}
   minimap:
     plugins:
