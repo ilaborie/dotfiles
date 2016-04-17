@@ -38,3 +38,7 @@ apm install docblockr
 apm install open-recent
 apm install language-svg
 apm install svg-preview
+apm install git-time-machine
+apm install imdone-atom
+apm install activate-power-mode
+apm install clipboard-plus

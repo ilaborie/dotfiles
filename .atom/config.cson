@@ -1,8 +1,10 @@
 "*":
   "atom-beautify":
-    _analyticsUserId: "2ffb4a29-c24f-4f0e-b7e0-176147798e77"
-    css_newline_between_rules: true
-    css_preserve_newlines: true
+    css:
+      newline_between_rules: true
+      preserve_newlines: true
+    general:
+      _analyticsUserId: "2ffb4a29-c24f-4f0e-b7e0-176147798e77"
   "atom-typescript": {}
   autosave:
     enabled: true

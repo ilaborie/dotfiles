@@ -91,6 +91,9 @@ brew cask install electric-sheep
 brew cask install wireshark
 brew cask install sshfs
 
+
+brew cask install kitematic
+
 brew cask install xquartz
 brew cask install inkscape
 
