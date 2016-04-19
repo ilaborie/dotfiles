@@ -73,6 +73,7 @@ brew cask install eclipse-ide
 brew cask install netbeans
 brew cask install intellij-idea
 brew cask install atom
+brew cask install sublime-text3
 
 brew cask install hipchat
 brew cask install skype

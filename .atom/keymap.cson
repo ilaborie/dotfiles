@@ -45,3 +45,4 @@
 
 '.platform-darwin atom-text-editor':
   'cmd-e': 'fuzzy-finder:toggle-buffer-finder'
+  'cmd-alt-l': 'atom-beautify:beautify-editor'
