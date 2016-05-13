@@ -92,7 +92,7 @@ brew cask install electric-sheep
 brew cask install wireshark
 brew cask install sshfs
 
-
+brew cask install postico
 brew cask install kitematic
 
 brew cask install xquartz

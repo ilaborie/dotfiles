@@ -89,6 +89,8 @@ brew install maven-deluxe
 
 brew install aspell --with-lang-fr --with-lang-en
 
+brew install ttfautohint fontforge --with-python
+
 # Remove outdated versions from the cellar
 brew cleanup
 
