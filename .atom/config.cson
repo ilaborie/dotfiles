@@ -1,4 +1,6 @@
 "*":
+  "activate-power-mode":
+    autoToggle: false
   "atom-beautify":
     css:
       newline_between_rules: true
@@ -43,3 +45,6 @@
     showOnStartup: false
   zentabs:
     maximumOpenedTabs: 5
+".source.swift":
+  editor:
+    preferredLineLength: 140

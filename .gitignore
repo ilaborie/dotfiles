@@ -3,8 +3,8 @@
 .vim/viminfo
 .vim/swaps/*
 .vim/undo
-
 *~
+.DS_Store
 
 # git credential file
 .gitconfig.local

@@ -17,6 +17,6 @@
 #     end
 # end
 
-set -x PATH ./node_modules/.bin $HOME/.cargo/bin $HOME/.homebrew/opt/go/libexec/bin $HOME/.homebrew/bin $HOME/.homebrew/sbin $HOME/bin $PATH
 set -x GOPATH $HOME/Developpement/Workspaces/go
+set -x PATH $GOPATH/bin ./node_modules/.bin $HOME/.cargo/bin $HOME/.homebrew/opt/go/libexec/bin $HOME/.homebrew/bin $HOME/.homebrew/sbin $HOME/bin $PATH
 set -x RUST_SRC_PATH $HOME/Developpement/rustc-1.7.0/src
